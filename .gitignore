@@ -1,0 +1,18 @@
+# local agent rules, not part of the project
+.clinerules/
+
+# external (userspace)
+external/blkcat
+external/src/**/*.o
+external/src/**/*.d
+
+# kernel module (kbuild)
+kernel/*.o
+kernel/*.ko
+kernel/*.mod
+kernel/*.mod.c
+kernel/modules.order
+kernel/Module.symvers
+kernel/.*.cmd
+kernel/.module-common.o
+kernel/.tmp_versions/
